@@ -4,6 +4,8 @@ f_name = input("What is your first name?   ")
 #l_name = input("what's your last name?   ")
 if f_name == "Harry":
     print(f_name, "is learning Python")
+elif f_name == "Tom":
+    print(f_name, "Is bad at manageing money")
 else:
     print("Sorry you are not learning Python {}".format(f_name))
 
